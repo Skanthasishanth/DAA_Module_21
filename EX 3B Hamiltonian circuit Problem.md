@@ -18,7 +18,7 @@ Developed by: KANTHA SISHANTH S
 Register Number: 212222100020
 ```
 
-```
+```py
 def Hamiltonian_path(adj, N):
     dp = [[False for i in range(1 << N)] for j in range(N)]
     for i in range(N):
